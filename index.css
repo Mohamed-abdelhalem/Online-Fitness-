@@ -1,0 +1,414 @@
+body
+{
+margin: 0;
+padding: 0;
+font-family: cursive;
+}
+
+.logo
+{
+font-size: 40px;
+font-weight: 900;
+margin: 15px 0px 15px 100px;
+display: inline-block;
+clear: both;
+}
+
+.nav-bar
+{
+width: 100%;
+height: 80px;
+background-color: white;
+}
+
+ul
+{
+list-style: none;
+display: inline-block;
+float: right;
+}
+
+ul li
+{
+ display: inline-block;
+ font-size: 25px;
+ font-weight: 900;
+ margin: 10px 70px 10px 0;
+}
+
+ul li a
+{
+text-decoration: none;
+color: black;
+}
+
+ul li a:hover
+{
+border-top: 15px solid red;
+padding-top: 20px
+}
+
+.st-page
+{
+width: 100%;
+height: 754px;
+background-image: url("photos/background.jpg");
+background-size: cover;
+justify-content: center;
+align-items: center;
+display: flex;
+}
+
+.content
+{
+width: 900px;
+height: 500px;
+margin-left: -30%;
+}
+
+.paragraph
+{
+ font-size: 60px;
+ font-weight: 900;
+ color: white;
+ display: block;
+ margin: 15px 0 ; 
+ }
+ 
+ .paragraph2
+{
+ font-size: 25px;
+ color: white;
+ display: block;
+ margin: 25px 0;
+ }
+ 
+ .paragraph3
+{
+ font-size: 40px;
+ font-weight: 900;
+ color: white;
+ display: block;
+ margin: 15px 0 ; 
+ }
+
+
+
+button
+{
+width: 250px;
+height: 70px;
+background-color: red;
+color: white;
+font-size: 30px;
+font-family: cursive;
+font-weight: 700;
+border-radius: 10px;
+margin-bottom: 15px;
+margin-top: 5%;
+}
+
+button:hover
+{
+border: 4px red solid;
+background-color: #fff;
+color: red;
+}
+
+hr
+{
+background-color:  red;
+width: 180px;
+height: 2.5px;
+margin: 30px auto 0;
+text-align: center;
+}
+
+.contianer
+{
+width: 100%;
+height: auto;
+margin-top:  30px;
+flex-wrap: wrap;
+}
+
+.body
+{
+width: 50%;
+height: auto;
+text-align: center;
+margin: 30px 25% 30px 25%;
+padding-top: 20px;
+}
+
+
+.about-content
+{
+width: 50%;
+height: auto;
+margin: 10px 25% 20px 25%;
+text-align: center;
+padding-top: 15px;
+}
+
+.content2
+{
+width: 50%;
+height: auto;
+text-align: center;
+margin: 10px 25% 20px 25%;
+}
+
+
+.time
+{
+width: 100%;
+height: auto;
+margin-top:  10px;
+background-color: #2f4f4f;
+flex-wrap: wrap;
+}
+
+.time-detial
+{
+width: 20%;
+height: auto;
+padding: 15px 20px;
+border: 3px white solid;
+margin: 30px 12%;
+display: inline-block;
+border-radius: 15px;
+}
+
+.num
+{
+font-size: 40px;
+font-weight: 900;
+color: gray;
+margin: 10px 0 2px;
+}
+
+.date-name
+{
+ font-size: 20px;
+ font-weight: 400;
+ color: white;
+}
+
+.course
+{
+ font-size: 35px;
+ font-weight: 900;
+ color: white;
+}
+
+
+
+.price-detail
+{
+display: inline-block;
+width: 20%;
+height: auto;
+border: 0.5px solid whitesmoke;
+margin: 20px 5% 20px 5%;
+padding: 10px;
+background-color: whitesmoke;
+}
+
+.pakage
+{
+font-size: 30px;
+font-weight: 500;
+}
+
+span
+{
+ font-size: 40px;
+ font-weight: 900;
+ color: red;
+}
+
+.detail
+{
+ font-size: 25px;
+ font-weight: 700;
+ color: gray;
+}
+
+.contact
+{
+text-align: center;
+}
+
+input
+{
+width: 40%;
+height: 5%;
+}
+
+textarea
+{
+ width: 40%;
+height: 5%;
+margin: 10px 20px 30px;
+}
+
+.imgs
+{
+ width: 70%;
+ height: 50%;
+}
+
+@media
+(max-width :500px)
+{
+ 
+ .logo
+{
+font-size: 20px;
+font-weight: 700;
+margin: 15px 0px 15px 150px;
+display: inline-block;
+clear: both;
+}
+
+ul li
+{
+ display: inline-block;
+ font-size: 15px;
+ font-weight: 600;
+ margin: 10px 12px 10px 0px;
+}
+
+.st-page
+{
+width: 100%;
+height: 45%;
+background-image: url("photos/background.jpg");
+background-size: 100%;
+background-repeat: no-repeat;
+justify-content: center;
+align-items: center;
+display: flex;
+margin-bottom: 0;
+}
+
+.content
+{
+width: 900px;
+height: 330px;
+margin-left: 0;
+text-align: center;
+}
+
+.paragraph
+{
+ font-size: 30px;
+ font-weight: 500;
+ color: white;
+ display: block;
+ margin: 15px 0 ; 
+ }
+ 
+ .paragraph2
+{
+ font-size: 20px;
+ color: white;
+ display: block;
+ margin: 25px 0;
+
+}
+
+.imgs
+{
+ width: 110%;
+ height: 50%;
+}
+
+.time-detial
+{
+width: 70%;
+height: auto;
+padding: 15px 20px;
+border: 3px white solid;
+margin: 50px 12%;
+display: block;
+border-radius: 15px;
+}
+
+.time
+{
+padding: 20px 0;
+}
+
+.price-detail
+{
+display: block;
+width: 60%;
+height: 50%;
+border: 0.5px solid whitesmoke;
+margin: 5px 10% 20px 20%;
+padding: 10px;
+background-color: whitesmoke;
+}
+
+.pakage
+{
+font-size: 20px;
+font-weight: 500;
+}
+
+span
+{
+ font-size: 30px;
+ font-weight: 900;
+ color: red;
+}
+
+.detail
+{
+ font-size: 15px;
+ font-weight: 700;
+ color: gray;
+}
+
+button
+{
+width: 150px;
+height: 40px;
+background-color: red;
+color: white;
+font-size: 20px;
+font-family: cursive;
+font-weight: 700;
+border-radius: 10px;
+margin-left: 0;
+margin-top: 0;
+}
+
+.contianer
+{
+width: 100%;
+height: auto;
+margin-top:  10px;
+flex-wrap: wrap;
+}
+
+hr
+{
+background-color:  red;
+width: 180px;
+height: 2.5px;
+margin: 10px auto 0;
+text-align: center;
+}
+
+.content2
+{
+width: 50%;
+height: auto;
+text-align: center;
+margin: 0px 25% 20px 25%;
+}
+
+}
