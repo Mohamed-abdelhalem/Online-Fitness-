@@ -12,6 +12,7 @@ font-weight: 900;
 margin: 15px 0px 15px 100px;
 display: inline-block;
 clear: both;
+cursor: pointer;
 }
 
 .nav-bar
@@ -44,8 +45,9 @@ color: black;
 
 ul li a:hover
 {
-border-top: 15px solid red;
-padding-top: 20px
+border-bottom: 6px solid red;
+padding-bottom: 20px;
+transition: ease-in-all 3s;
 }
 
 .st-page
@@ -94,7 +96,7 @@ margin-left: -30%;
 
 
 
-button
+.btn
 {
 width: 250px;
 height: 70px;
@@ -106,9 +108,10 @@ font-weight: 700;
 border-radius: 10px;
 margin-bottom: 15px;
 margin-top: 5%;
+cursor: pointer;
 }
 
-button:hover
+.btn:hover
 {
 border: 4px red solid;
 background-color: #fff;
@@ -134,11 +137,12 @@ flex-wrap: wrap;
 
 .body
 {
-width: 50%;
+width: 39%;
 height: auto;
 text-align: center;
-margin: 30px 25% 30px 25%;
+margin: 30px 5% 30px 5%;
 padding-top: 20px;
+display: inline-block;
 }
 
 
@@ -210,7 +214,7 @@ display: inline-block;
 width: 20%;
 height: auto;
 border: 0.5px solid whitesmoke;
-margin: 20px 5% 20px 5%;
+margin: 20px 3% 20px 7%;
 padding: 10px;
 background-color: whitesmoke;
 }
@@ -235,28 +239,89 @@ span
  color: gray;
 }
 
+.join
+{
+width: 200px; 
+font-size: 22px;
+font-weight: 900;
+margin: 10px auto;
+color: white;
+height: 70px;
+ border: 0.5px solid red;
+ border-radius: 0 40px 40px 0;
+ margin: 10px 0;
+ margin-left: -10px;
+ text-align: center;
+ background-color: red;
+ padding: 10px;
+ cursor: pointer;
+}
+
+.join:hover
+{
+ background-color: white;
+ color: red;
+ border: 3px solid red;
+ border-left: 3px solid whitesmoke;
+}
+
+
 .contact
 {
-text-align: center;
+ margin: 30px 0px;
 }
 
 input
 {
 width: 40%;
 height: 5%;
+margin: 10px 50px;
+border: 2px solid red;
+border-radius: 5px;
 }
 
-textarea
+.sub
 {
- width: 40%;
-height: 5%;
-margin: 10px 20px 30px;
+ width: 87%;
+}
+
+.area
+{
+width: 87%;
+height: 15%;
+margin: 10px 50px 30px ;
+border: 2px solid red;
+border-radius: 5px;
+}
+
+.btn2
+{
+width: 250px;
+height: 70px;
+background-color: red;
+color: white;
+font-size: 30px;
+font-family: cursive;
+font-weight: 700;
+border-radius: 10px;
+margin-bottom: 15px;
+cursor: pointer;
+margin-left: 70px;
+}
+
+
+.btn2:hover
+{
+ background-color: white;
+ color: red;
+ border: 3px solid red;
 }
 
 .imgs
 {
  width: 70%;
  height: 50%;
+ border-radius:  5px  7px 7px;
 }
 
 @media
@@ -277,7 +342,8 @@ ul li
  display: inline-block;
  font-size: 15px;
  font-weight: 600;
- margin: 10px 12px 10px 0px;
+ margin: 10px 22px 10px -10px;
+ 
 }
 
 .st-page
@@ -345,9 +411,9 @@ padding: 20px 0;
 {
 display: block;
 width: 60%;
-height: 50%;
+height: auto;
 border: 0.5px solid whitesmoke;
-margin: 5px 10% 20px 20%;
+margin: 5px 5% 20px 20%;
 padding: 10px;
 background-color: whitesmoke;
 }
@@ -372,7 +438,7 @@ span
  color: gray;
 }
 
-button
+.btn
 {
 width: 150px;
 height: 40px;
@@ -382,7 +448,7 @@ font-size: 20px;
 font-family: cursive;
 font-weight: 700;
 border-radius: 10px;
-margin-left: 0;
+margin-left: 0px;
 margin-top: 0;
 }
 
@@ -391,7 +457,12 @@ margin-top: 0;
 width: 100%;
 height: auto;
 margin-top:  10px;
-flex-wrap: wrap;
+
+}
+.body
+{
+ display: block;
+ margin: 10px 30%;
 }
 
 hr
@@ -410,5 +481,45 @@ height: auto;
 text-align: center;
 margin: 0px 25% 20px 25%;
 }
+
+input
+{
+width: 40%;
+height: 5%;
+margin: 10px 50px;
+border: 2px solid red;
+border-radius: 5px;
+}
+
+.sub
+{
+ width: 70%;
+}
+
+.area
+{
+width: 70%;
+height: 15%;
+margin: 10px 0px 30px 50px;
+border: 2px solid red;
+border-radius: 5px;
+}
+
+.btn2
+{
+width: 200px;
+height: 70px;
+background-color: red;
+color: white;
+font-size: 30px;
+font-family: cursive;
+font-weight: 700;
+border-radius: 10px;
+margin-bottom: 15px;
+cursor: pointer;
+margin-left: 50px;
+}
+
+
 
 }
