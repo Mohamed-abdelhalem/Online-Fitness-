@@ -442,6 +442,8 @@ ul
 {
 
 float: none;
+text-align: center;
+margin-top: -10px;
 }
 
 ul li
@@ -449,7 +451,7 @@ ul li
  display: inline-block;
  font-size: 12px;
  font-weight: 700;
- margin: 5px 5px;
+ margin: 5px 5px -15px;
 }
 
 .st-page
