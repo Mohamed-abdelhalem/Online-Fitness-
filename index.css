@@ -438,7 +438,11 @@ cursor: pointer;
  transform: scale(1.2);
 }
 
+ul
+{
 
+float: none;
+}
 
 ul li
 {
@@ -446,7 +450,6 @@ ul li
  font-size: 12px;
  font-weight: 700;
  margin: 5px 5px;
- text-align: center;
 }
 
 .st-page
