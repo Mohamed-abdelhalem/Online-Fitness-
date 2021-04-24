@@ -445,7 +445,7 @@ ul li
  display: inline-block;
  font-size: 14px;
  font-weight: 700;
- margin: 10px 27px 10px -17px;
+ margin: 10px 30px 10px -20px;
  float: none;
  
 }
@@ -453,7 +453,7 @@ ul li
 .st-page
 {
 width: 100%;
-height: 55%;
+height: 45%;
 background-image: url("photos/background.jpg");
 background-size: 100%;
 background-repeat: no-repeat;
@@ -559,12 +559,12 @@ height: 40px;
 background-color: red;
 color: white;
 font-size: 20px;
-font-family: cursive;
+font-family: arial;
 font-weight: 700;
 border-radius: 10px;
 margin-left: 0px;
 margin-top: 0;
-outline: none;
+box-shadow: none;
 }
 
 .contianer
@@ -599,23 +599,23 @@ margin: 0px 25% 20px 25%;
 
 input
 {
-width: 40%;
+width: 35%;
 height: 5%;
-margin: 10px 20px;
+margin: 10px 30px;
 border: 2px solid red;
 border-radius: 5px;
 }
 
 .sub
 {
- width: 89%;
+ width: 82%;
 }
 
 .area
 {
-width: 89%;
+width: 82%;
 height: 15%;
-margin: 10px 0px 30px 20px;
+margin: 10px 0px 30px 30px;
 border: 2px solid red;
 border-radius: 5px;
 resize: none;
@@ -628,14 +628,14 @@ height: 70px;
 background-color: red;
 color: white;
 font-size: 30px;
-font-family: cursive;
+font-family: arial;
 font-weight: 700;
 border-radius: 10px;
 margin-bottom: 15px;
 cursor: pointer;
 margin-left: 50px;
-outline: none;
 margin-left: 25%;
+box-shadow: none;
 
 }
 
