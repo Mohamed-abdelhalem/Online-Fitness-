@@ -445,9 +445,8 @@ ul li
  display: inline-block;
  font-size: 14px;
  font-weight: 700;
- margin: 10px 40px 10px -30px;
- float: none;
- 
+ margin: 5px 5px;
+ text-align: center;
 }
 
 .st-page
@@ -466,15 +465,15 @@ margin-bottom: 0;
 .content
 {
 width: 900px;
-height: 330px;
+height: 250px;
 margin-left: 0;
 text-align: center;
 }
 
 .paragraph
 {
- font-size: 30px;
- font-weight: 500;
+ font-size: 20px;
+ font-weight: 900;
  color: white;
  display: block;
  margin: 15px 0 ; 
@@ -482,7 +481,7 @@ text-align: center;
  
  .paragraph2
 {
- font-size: 20px;
+ font-size: 15px;
  color: white;
  display: block;
  margin: 25px 0;
